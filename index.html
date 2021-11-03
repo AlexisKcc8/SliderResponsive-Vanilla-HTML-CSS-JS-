@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider responsive</title>
+</head>
+<body>
+    <section id="container-slider">
+        <!-- botones de siguiente y atras	 -->
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+          <li><a itlist="itList_3" href="#"></a></li>
+        </ul>
+
+        <ul id="slider">
+          <li style="background-image: url('./images/image-product-1.jpg'); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h2>Tenis de calidad a los mejores precios</h2>
+            <p>Descubra en qué consiste la experimentación de llevar unos tenis que te mejoran el dia.</p>
+            <a href="#" class="btnSlider">Ver más</a>
+            </div>
+            </div>
+          </li>
+
+          <li style="background-image: url('./images/image-product-2.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Color que pinta bien</h2>
+            <p>Comodidad, estilo, belleza. Aquierelos a un super precio hoy!.</p>
+            <a href="#" class="btnSlider">Ver más</a>
+          </div>
+            </div>
+          </li>
+          <li style="background-image: url('./images/image-product-3.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Comodidad y Frescura</h2>
+            <p>La comidad de tus pies es una de nuestras prioridades.</p>
+            <a href="#" class="btnSlider">Ver más</a>
+          </div>
+            </div>
+          </li>
+
+          <li style="background-image: url('./images/image-product-4.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Moda al estilo de tu vestimenta</h2>
+            <p>Las estrategias de negocio representan planes o métodos...</p>
+            <a href="#" class="btnSlider">Ver más</a>
+          </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+
+
+     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="functions.js"></script>
+</body>
+</html>
